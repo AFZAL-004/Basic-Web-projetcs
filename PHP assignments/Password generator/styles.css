@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Dark background color */
+    margin: 0;
+    color: #e0e0e0; /* Light text color for dark theme */
+}
+
+.container {
+    background-color: #1e1e1e; /* Slightly lighter dark background for container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* White color for the title */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #bdbdbd; /* Lighter color for labels */
+}
+
+input {
+    width: 60px;
+    padding: 5px;
+    background-color: #333; /* Darker input background */
+    color: #e0e0e0; /* Light text color for input */
+    border: 1px solid #444; /* Border for input */
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.password-output {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff; /* Light color for the password output */
+}
+
+#passwordDisplay {
+    font-size: 1.2em;
+    word-break: break-all;
+    color: #f1f1f1; /* Slightly lighter color for the generated password text */
+}

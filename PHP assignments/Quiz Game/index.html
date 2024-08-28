@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Funny Quiz Game</h1>
+        <div id="quizContainer">
+            <p id="question">What is the best way to get a dinosaur to sleep?</p>
+            <div id="options">
+                <button onclick="checkAnswer('A')">A. Sing it a lullaby</button>
+                <button onclick="checkAnswer('B')">B. Tell it a bedtime story</button>
+                <button onclick="checkAnswer('C')">C. Give it a warm glass of milk</button>
+                <button onclick="checkAnswer('D')">D. Play dead</button>
+            </div>
+        </div>
+        <p id="result"></p>
+        <button onclick="nextQuestion()">Next Question</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
